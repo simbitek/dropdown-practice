@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* .navbar {
+    background-color: rgb(230, 223, 236);
+}
+
+.menu {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+}
+
+.menu > li {
+    position: relative;
+    margin-right: 20px;
+}
+
+.menu > li > a:hover {
+    background-color: rgb(82, 79, 79);
+    border-radius: 4px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(119, 114, 110);
+    width: 160px;
+    top: 100%;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-menu li a:hover {
+    background-color: rgb(189, 189, 202);
+}
+
+
+
+/* Dropdown menu using the accordion method */
+/* .accordion-menu {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.accordion-item {
+    border-top: 1px solid;
+}
+
+.accordion-item:first-child {
+    border-top: none;
+}
+
+.accordion-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.accordion-header:hover {
+    background-color: #45a049;
+}
+
+.accordion-content {
+    display: none;
+    background-color: #f9f9f9;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.accordion-content a {
+    display: block;
+    color: #333;
+    padding: 8px 0;
+    text-decoration: none;
+}
+
+.accordion-content a:hover {
+    background-color: #ddd;
+}  */
+
+
+.side-menu {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #e2dede;
+    padding-top: 20px;
+}
+
+.side-menu a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-menu a:hover {
+    background-color: #575757;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 250px; /* Aligns with sidebar */
+    top: 0;
+    background-color: #414141;
+    min-width: 200px;
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    padding: 10px 15px;
+    color: #f1f1f1;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+.dropdown-content a:hover {
+    background-color: #575757;
+}
+
+/* Show dropdown content on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
